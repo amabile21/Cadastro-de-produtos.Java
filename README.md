@@ -1,5 +1,7 @@
 # Cadastro-de-produtos.Java
-Este projeto foi desenvolvido com o objetivo de praticar os conceitos fundamentais da Programação Orientada a Objetos (POO) em Java. Ele simula um pequeno sistema de cadastro de produtos.
+Este projeto foi desenvolvido com o objetivo de praticar os conceitos fundamentais da Programação Orientada a Objetos (POO) em Java.
+
+Ele simula um sistema simples de cadastro de produtos.
 
 🚀 Tecnologias Utilizadas
 

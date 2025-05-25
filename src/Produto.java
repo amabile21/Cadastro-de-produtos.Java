@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Produto {
 
     private String nome;
@@ -34,10 +36,20 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
-    public void exibirInfo() {
+    public void exibirInformacoes() {
+        System.out.println();
+        System.out.println("Cadastro realizado!");
         System.out.println("Produto: " + nome);
-        System.out.println("Preço: R$" + preco);
+        System.out.println("Preço: R$ " + preco);
         System.out.println("Quantidade: " + quantidade);
+        System.out.println();
         System.out.println("-------------------------------");
+
+    }
+
+    public void exibirOrcamento() {
+        Double novoPreco = quantidade * preco;
+        System.out.printf("O orçamento total do produto %s, sera de: %.2f \n", nome, novoPreco);
+
     }
 }
